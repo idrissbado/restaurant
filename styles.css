@@ -1,0 +1,68 @@
+/* styles/styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.hero-restaurant {
+    background: url('https://source.unsplash.com/1600x900/?ivorian-cuisine') no-repeat center center/cover;
+}
+
+.hero-travel {
+    background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center/cover;
+}
+
+.btn-custom {
+    background-color: #ff7f00;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #e66900;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ff7f00 !important;
+}
+
+.content-section {
+    display: none;
+}
+
+#home-section {
+    display: block;
+}
